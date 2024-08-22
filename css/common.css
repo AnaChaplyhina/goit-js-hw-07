@@ -13,6 +13,62 @@ body {
   line-height: 1.5;
 }
 
+/*#region task1*/
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  /* Відстань між категоріями */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 392px;
+  height: 264px;
+}
+
+.item {
+  border: 2px;
+  padding: 16px;
+  /* Відступи всередині контейнера */
+  border-radius: 8px;
+  /* Округлені краї */
+  background-color: #F6F6FE;
+  /* Світло-сірий фон */
+}
+
+.item h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  /* Відступ між заголовком і списком */
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+}
+
+.item ul {
+  list-style-type: none;
+  /* Видаляємо маркери списку */
+  padding: 0;
+  margin: 0;
+}
+
+.item ul li {
+padding: 10px;
+border-color: #808080;
+  margin-bottom: 8px;
+  /* Відступ між елементами */
+  border-radius: 4px;
+  /* Округлені краї */
+  border: 2px solid #cfcfd5;
+  /* Сірий бордер */
+}
+
+/*#endregion task1*/
+
+
+
 /*task2*/
 .gallery {
   display: flex;
