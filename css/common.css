@@ -219,3 +219,83 @@ h1, #name-output {
 }
 
 /*#endregion task5*/
+
+/*#region task6*/
+
+#controls,
+#boxes {
+  background-color: #f6f6fe;
+  width: 486px;
+  margin: 24px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+}
+
+#controls {
+  justify-content: flex-start;
+}
+
+#controls input,
+#controls button {
+  margin-right: 16px;
+}
+
+#controls input {
+  margin-right: 16px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #808080;
+      border-radius: 8px;
+      padding: 8px;
+      width: 150px;
+      height: 40px;
+      gap: 10px;
+      text-align: center;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#controls button:last-child {
+  margin-right: 0;
+}
+
+#controls button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#controls button[data-create] {
+  background-color: #4e75ff;
+}
+
+#controls button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#boxes {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#boxes>* {
+  margin-right: 44px;
+  margin-bottom: 32px;
+}
+
+#boxes>*:last-child {
+  margin-right: 0;
+}
+/*#endregion task6*/
