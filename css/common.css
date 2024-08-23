@@ -19,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  /* Відстань між категоріями */
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -30,11 +29,8 @@ body {
 .item {
   border: 2px;
   padding: 16px;
-  /* Відступи всередині контейнера */
   border-radius: 8px;
-  /* Округлені краї */
   background-color: #F6F6FE;
-  /* Світло-сірий фон */
 }
 
 .item h2 {
@@ -42,14 +38,12 @@ body {
   font-size: 24px;
   color: #2e2f42;
   margin-bottom: 16px;
-  /* Відступ між заголовком і списком */
   line-height: 1.33333;
   letter-spacing: 0.04em;
 }
 
 .item ul {
   list-style-type: none;
-  /* Видаляємо маркери списку */
   padding: 0;
   margin: 0;
 }
@@ -57,19 +51,17 @@ body {
 .item ul li {
 padding: 10px;
 border-color: #808080;
-  margin-bottom: 8px;
-  /* Відступ між елементами */
-  border-radius: 4px;
-  /* Округлені краї */
-  border: 2px solid #cfcfd5;
-  /* Сірий бордер */
+margin-bottom: 8px;
+border-radius: 4px;
+border: 2px solid #cfcfd5;
+
 }
 
 /*#endregion task1*/
 
 
 
-/*task2*/
+/*#region task2*/
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -81,6 +73,7 @@ border-color: #808080;
 
 .gallery-item {
   flex-basis: calc(33.333% - 16px);
+  
 }
 
 .gallery-item img {
@@ -90,3 +83,50 @@ border-color: #808080;
   object-fit: cover;
   border-radius: 8px;
 }
+
+.img {
+  width: 360px;
+  height: 300px;
+
+}
+
+/*#endregion task2*/
+
+/*#region task3*/
+
+#name-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  width: 360px;
+    height: 40px;
+}
+
+#name-input:hover,
+#name-input:focus {
+  border-color: #7e57c2;
+}
+
+h1, #name-output {
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+ 
+#name-input {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+
+/*#endregion task3*/
+
